@@ -1,11 +1,19 @@
 import { Link } from "react-router-dom";
 
 function RecipeCard(props) {
-  const { recipe_image_url, recipe_title, id } = props.recipe;
+  const {
+    id,
+    recipe_description,
+    recipe_image_url,
+    recipe_ingredients,
+    recipe_title,
+  } = props.recipe;
+
+  // console.log(id)
 
   return (
     <Link
-      to={"/recipe/detail"}
+      to={`/recipes/details/${id}`}
       key={id}
       className="bg-stone-700 px-5 py-4 hover:scale-101 hover:shadow-stone-400 hover:shadow-xl/25  cursor-pointer shadow-zinc-100 duration-150 ease-in outlin-none border-none"
     >
