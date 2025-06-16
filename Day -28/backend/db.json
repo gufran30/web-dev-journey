@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": "A6fpUeZHtXUkxmBkNBNts",
+      "email": "john.doe@mail.com",
+      "username": "john.doe",
+      "passowrd": "123456789"
+    }
+  ],
+  "products": [],
+  "carts": []
+}
