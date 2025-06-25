@@ -1,0 +1,4 @@
+Day - 31 :
+
+- Revised DOM, made small part of Todo
+- solved few questions of DSA in js
